@@ -1,5 +1,5 @@
 {
-  "displayName": "test-agent-1",
+  "displayName": "minimal-agent",
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
   "enableLogging": true,
