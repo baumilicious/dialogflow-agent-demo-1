@@ -62,11 +62,12 @@
   },
   "languageCode": "en",
   "knowledgeConnectorSettings": {
+    "business": "Google Store",
     "mainLlmConfig": {
     
     }
   },
   "llmModelSettings": {
-    "model": "gemini-1.5-flash"
+  
   }
 }

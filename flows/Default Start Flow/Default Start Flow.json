@@ -12,7 +12,15 @@
         "languageCode": "en"
       } ]
     },
-    "name": "d5a38157-e11c-4ea5-8bbe-67d2b2ff8c28"
+    "name": "cd2cece1-2a52-4f4f-97c1-d303bcbcb2cd"
+  }, {
+    "intent": "book_an_appointment",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "book_an_appointment",
+    "name": "2ba75530-71c7-43d5-9466-908ce4d4afc2",
+    "description": "make an appointment"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -24,7 +32,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "0767dafb-9397-4a59-a484-d9a89a66010e"
+    "name": "c31dce60-bcfb-4211-8690-5f7daee40763"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -35,10 +43,16 @@
         "languageCode": "en"
       } ]
     },
-    "name": "65d93b55-cb6a-4b95-83ee-b1b15d360048"
+    "name": "dd1cbaed-f0d7-400e-86fc-0e872d61f4e6"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
-  }
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "6fdf676b-1fb0-40b7-8977-7725be86f9b1",
+    "languageCode": "en"
+  } ]
 }

@@ -1,0 +1,10 @@
+{
+  "name": "87e2a517-2d49-4acd-b824-d561391e14a9",
+  "displayName": "confirmation.yes\t",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 16
+}

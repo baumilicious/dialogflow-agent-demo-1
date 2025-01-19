@@ -1,12 +1,48 @@
 {
   "displayName": "test-agent-1",
   "defaultLanguageCode": "en",
-  "timeZone": "Europe/Berlin",
+  "timeZone": "America/Los_Angeles",
+  "enableLogging": true,
   "projectNumber": 816869888633,
+  "speechToTextSettings": {
+  
+  },
   "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
   "advancedSettings": {
-    "loggingSettings": {
+    "audioExportGcsDestination": {
     
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
     }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  },
+  "genAppBuilderSettings": {
+  
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "webClientSettings": {
+    "boxBorderRadius": "0"
   }
 }

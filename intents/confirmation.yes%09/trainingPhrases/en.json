@@ -1,88 +1,103 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "This was a nightmare"
+      "text": "Confirmed"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I'm going to write a negative review"
+      "text": "Correct"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I'm not happy with this at all"
+      "text": "Absolutely"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I'm going to leave a bad review"
+      "text": "You got it"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "This is unacceptable"
+      "text": "Affirmative"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I'm disappointed with this service"
+      "text": "I'm ready"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I have a complaint"
+      "text": "Go ahead"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I'm not satisfied with this"
+      "text": "Sounds good to me"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "This was a terrible experience"
+      "text": "That's right"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I'm really unhappy with this"
+      "text": "Yes, please"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "i want to tell you how bad it was",
+      "text": "Sounds good"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yep"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "OK",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "i want to complain",
+      "text": "Thanks, ",
+      "auto": true
+    }, {
+      "text": "bye",
+      "parameterId": "person",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "i want to give negative feedback",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "i want to give negative review",
+      "text": "Thanks",
       "auto": true
     } ],
     "repeatCount": 1,

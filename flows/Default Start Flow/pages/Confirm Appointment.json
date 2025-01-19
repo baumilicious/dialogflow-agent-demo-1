@@ -1,0 +1,37 @@
+{
+  "name": "07a0d784-3454-4049-b87b-89e3f96ef74e",
+  "displayName": "Confirm Appointment",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes\t",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great your appointment is booked!\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4adc7f54-faa1-42af-a229-01eb0b83f415"
+  }, {
+    "intent": "confirmation.no\t",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "location",
+        "value": "NULL"
+      }, {
+        "parameter": "date",
+        "value": "NULL"
+      }, {
+        "parameter": "time",
+        "value": "NULL"
+      }, {
+        "parameter": "name",
+        "value": "NULL"
+      } ]
+    },
+    "name": "b60ff7fc-c5ab-455a-ba11-9c12eb4bf8fa"
+  } ]
+}
