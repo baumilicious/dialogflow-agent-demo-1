@@ -1,67 +1,71 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "that works"
+      "text": "i need to file a claim",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "definitely"
+      "text": "Somebody ran into me",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "let's do that"
+      "text": "I crashed my car",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "alright"
+      "text": "I had an accident",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "of course"
+      "text": "i was involved in an accident",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yes please"
+      "text": "I want to make an accident report",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "sure"
+      "text": "Can you help me file an insurance claim?",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yep"
+      "text": "File a claim",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yeah"
+      "text": "I was involved in an accident and need to file a claim",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yea"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yes"
+      "text": "I need to file an accident report",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"

@@ -1,36 +1,13 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
+  "name": "365ba44c-d5bb-49cf-95dd-25b0713cc6bf",
+  "displayName": "File a Claim",
   "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
+    "condition": "true",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "\u003cspeak\u003e\n\u003cbreak time=\"5s\"/\u003e\nHi. I am the Google call companion insurance agent.\n\u003c/speak\u003e" ]
-        },
-        "languageCode": "en"
-      }, {
-        "text": {
-          "text": [ "How can I help you?" ]
-        },
-        "languageCode": "en"
-      } ],
       "sendCallCompanionSms": true
     },
-    "name": "483fb30c-58ab-4798-9f26-5e21f3987899"
-  }, {
-    "intent": "HI_report_accident",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "I'm very sorry to hear that." ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "targetFlow": "File a Claim",
-    "name": "6c65b2a3-2b80-4d0a-a19a-386506169344"
+    "targetPage": "Confirm No Injury",
+    "name": "a41e1067-c96e-4639-877c-27a4cfb34274"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -42,7 +19,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "53df7060-34b1-4f4e-aaed-3657d663aabe"
+    "name": "f7455821-fd69-4dc5-9dd7-4882242cb175"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -53,7 +30,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "6b5f1ba2-fedd-4ea0-9e0f-225bf8682109"
+    "name": "fda2f360-829d-447a-953a-47ba97acca59"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",

@@ -1,0 +1,7 @@
+{
+  "name": "f4a92215-43a3-47c6-9e79-9ae8971327e3",
+  "displayName": "HI_check_claim_status",
+  "priority": 500000,
+  "description": "Users asking for a status update on their existing claim",
+  "numTrainingPhrases": 8
+}

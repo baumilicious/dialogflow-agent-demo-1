@@ -1,0 +1,55 @@
+{
+  "name": "e103d217-19df-4389-ae0e-2abc1f54734c",
+  "displayName": "Location of Incident",
+  "form": {
+    "parameters": [ {
+      "displayName": "location_of_incident",
+      "required": true,
+      "entityType": "@sys.location",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What was the city and state where the incident occurred?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ {
+                "type": "textBox"
+              } ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.location_of_incident != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you. I will record the location as:\n\n$session.params.location_of_incident.city, \n$session.params.location_of_incident.admin-area." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Confirm Vehicle",
+    "name": "94dc4efe-e5fa-4326-bc6e-7adf1210ce87"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ {
+            "type": "textBox"
+          } ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "b9596404-5ace-4ba0-9bdf-943f6ae41035"
+  } ]
+}

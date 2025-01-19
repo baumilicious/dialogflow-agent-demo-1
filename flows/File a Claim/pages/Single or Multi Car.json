@@ -1,0 +1,57 @@
+{
+  "name": "41876125-7fa9-42f5-a2e2-61c5118f9ca5",
+  "displayName": "Single or Multi Car",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "This is the first of 3 questions I'll need to ask about the incident." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Was this is single car or multi-car accident?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ {
+          "options": [ {
+            "text": "Single car"
+          }, {
+            "text": "Multi-car"
+          } ],
+          "type": "chips"
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "CI_single_car",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Got it." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Passengers Involved",
+    "name": "77d41b7c-44fd-4e8f-962d-41cab39310f2"
+  }, {
+    "intent": "CI_multi_car",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Got it." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Additional Cars Involved",
+    "name": "a643977b-fa1f-4814-a6e4-4b5b5a3811f0"
+  } ]
+}

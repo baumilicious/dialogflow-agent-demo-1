@@ -1,0 +1,55 @@
+{
+  "name": "9554ee0d-f475-4a03-ad1b-d062c1649d71",
+  "displayName": "Date of Incident",
+  "form": {
+    "parameters": [ {
+      "displayName": "date_of_incident",
+      "required": true,
+      "entityType": "@sys.date-time",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "On what date did the incident occur?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ {
+                "type": "textBox"
+              } ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.date_of_incident != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I will enter the date as $session.params.date_of_incident." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Location of Incident",
+    "name": "5e7fd72e-b20e-4f16-aaa0-125a82a11c2e"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ {
+            "type": "textBox"
+          } ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "aa321485-91a6-448a-8283-bdf3dd739163"
+  } ]
+}

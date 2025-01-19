@@ -1,0 +1,40 @@
+{
+  "name": "b6b615c1-9aec-4bc7-aa46-9459a88c5880",
+  "displayName": "Call Emergency Crew",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Have the emergency services been contacted? " ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great, I want to make sure we take care of any emergencies before starting. Let's work on filing your claim now." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Date of Incident",
+    "name": "dbe655fb-32b6-4842-b4b0-ac32aa75ff1d"
+  }, {
+    "intent": "confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Before we work on filing the claim, I want to make sure the emergency responders are on their way to help everyone. Please hang up and call the police. You may call back anytime once the accident has been reported  to the authorities." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "bc57cd9c-471c-4a90-ac49-91b52685c757"
+  } ]
+}

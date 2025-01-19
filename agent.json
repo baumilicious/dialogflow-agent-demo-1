@@ -5,22 +5,40 @@
   "enableLogging": true,
   "projectNumber": 816869888633,
   "speechToTextSettings": {
-  
+    "enableSpeechAdaptation": true
   },
   "startFlow": "Default Start Flow",
   "enableStackdriverLogging": true,
+  "enableSpellCorrection": true,
   "advancedSettings": {
+    "enabled": true,
     "audioExportGcsDestination": {
     
     },
     "speechSettings": {
       "endpointerSensitivity": 90,
       "noSpeechTimeout": {
-        "seconds": 5
-      }
+        "seconds": 20
+      },
+      "models": [ {
+        "key": "en",
+        "value": "phone_call"
+      } ]
     },
     "playbackInterruptionSettings": {
-    
+      "allowPlaybackInterruption": true
+    },
+    "dtmfSettings": {
+      "enabled": true,
+      "customRule": {
+      
+      },
+      "interdigitTimeoutDuration": {
+        "seconds": 5
+      },
+      "endpointingTimeoutDuration": {
+        "seconds": 5
+      }
     },
     "loggingSettings": {
       "enableStackdriverLogging": true,
@@ -31,13 +49,24 @@
   
   },
   "textToSpeechSettings": {
-  
+    "synthesizeSpeechConfigs": [ {
+      "key": "en",
+      "value": {
+        "voice": {
+          "name": "en-US-Studio-O",
+          "ssmlGender": "SSML_VOICE_GENDER_FEMALE"
+        }
+      }
+    } ]
   },
   "genAppBuilderSettings": {
   
   },
   "duplexSettings": {
-  
+    "enableDuplex": true
+  },
+  "callCompanionSettings": {
+    "company": "Google Call Companion"
   },
   "answerFeedbackSettings": {
   

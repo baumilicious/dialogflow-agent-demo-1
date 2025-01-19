@@ -1,0 +1,47 @@
+{
+  "name": "b4d775b1-e7b0-4f0f-9e80-c7d90061a84c",
+  "displayName": "Passengers Involved",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Were there any passengers in your car at the time?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "OK" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Passenger Info",
+    "name": "bf5bbce2-4c0d-4cf8-b8e1-fa8d68845bff"
+  }, {
+    "intent": "confirmation.no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Ticket Issued",
+    "name": "96e33a6b-0a14-4791-b66c-07c2376c8d93"
+  } ]
+}

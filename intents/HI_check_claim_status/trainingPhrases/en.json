@@ -1,67 +1,57 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "that works"
+      "text": "check my claim",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "definitely"
+      "text": "claim status",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "let's do that"
+      "text": "I need an update on my recent claim status",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "alright"
+      "text": "Can you tell me about my claim status",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "of course"
+      "text": "What's the status of my claim",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yes please"
+      "text": "Tell me the claim status",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "sure"
+      "text": "I need to lookup my claim status",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yep"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yeah"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yea"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yes"
+      "text": "I want to check the status of my claim",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"

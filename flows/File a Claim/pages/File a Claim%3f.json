@@ -1,0 +1,40 @@
+{
+  "name": "b333fab1-9652-4d20-a5a9-721a73f7b07b",
+  "displayName": "File a Claim?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Would you like me to help you file an insurance claim for the incident?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I would be happy to help. Let's get started." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Confirm Account",
+    "name": "16bfc513-da2f-4789-b98d-aa2b49d7e308"
+  } ]
+}

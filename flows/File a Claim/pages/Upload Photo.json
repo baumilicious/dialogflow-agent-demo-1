@@ -1,0 +1,35 @@
+{
+  "name": "8c7952a2-eac4-4f74-b8a4-b5ad41327111",
+  "displayName": "Upload Photo",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Can you please upload a photo of the damage?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ {
+          "type": "capture photo"
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Photo_captured",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Photo received!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Claim Filed Confirmation",
+    "name": "0e561bdb-c0dd-40e4-a5b3-a88837bd0a68"
+  } ]
+}

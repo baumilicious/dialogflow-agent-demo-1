@@ -1,0 +1,48 @@
+{
+  "name": "e8a30bc5-a45b-460b-91b3-6dbfddfc864a",
+  "displayName": "Confirm Vehicle",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Did the incident occur in your Futura Impreza?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ {
+          "imageUrl": "https://marylandblackcar.com/wp-content/uploads/2017/11/maryland-black-car-business-class-mercedes-benz-s-class.webp",
+          "type": "image"
+        } ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you for confirming." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Single or Multi Car",
+    "name": "a8b06daf-ca7c-4572-b597-63f14e63edc8"
+  } ]
+}

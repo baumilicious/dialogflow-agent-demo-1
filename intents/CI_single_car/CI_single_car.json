@@ -1,0 +1,10 @@
+{
+  "name": "48f3696a-973d-40df-8c38-59c71d5172ad",
+  "displayName": "CI_single_car",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

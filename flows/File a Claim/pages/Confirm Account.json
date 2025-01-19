@@ -1,0 +1,44 @@
+{
+  "name": "0ce99b6d-9948-43d0-993f-d2750040048d",
+  "displayName": "Confirm Account",
+  "form": {
+    "parameters": [ {
+      "displayName": "account-number",
+      "required": true,
+      "entityType": "@sys.number-sequence",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Can you please enter the account number for your Insurance policy?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ {
+                "type": "textBox"
+              } ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.account-number != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Confirm Policy Details",
+    "name": "bd9b1988-0971-4c40-91f3-90e0f444d202"
+  } ]
+}

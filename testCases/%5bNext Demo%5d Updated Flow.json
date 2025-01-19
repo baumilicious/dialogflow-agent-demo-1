@@ -1,0 +1,413 @@
+{
+  "name": "fa5236c9-7443-47dd-8648-291bb54b268a",
+  "displayName": "[Next Demo] Updated Flow",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hi"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e\n\u003cbreak time=\"5s\"/\u003e\nHi I am the Google call companion insurance agent.\n\u003c/speak\u003e" ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "How can I help you?" ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "What would you like to do?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "i was in a small accident"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "HI_report_accident"
+      },
+      "currentPage": {
+        "name": "Confirm No Injury",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "I'm very sorry to hear that." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Before we continue, is everyone safe?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.yes"
+      },
+      "currentPage": {
+        "name": "File a Claim?",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "I'm relieved to hear that everyone is alright." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Would you like me to help you file an insurance claim for the incident?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Confirm Account",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "I would be happy to help. Let's get started." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Can you please enter the account number for your Insurance policy?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "432543"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirm Policy Details",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Thank you." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "I was able to locate the account." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "The policy owner is listed as John Smith.\nThe vehicle on record is a 2022 Futura Impreza.\nThere is a collision liability limit of $50,000\nand a personal liability limit of $100,000." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Does this sound correct?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Date of Incident",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "On what date did the incident occur?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "8/19/23"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Location of Incident",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "I will enter the date as 2023-08-19." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "What was the city and state where the incident occurred?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "los angeles, ca"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirm Vehicle",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Thank you. I will record the location as:\n\nLos Angeles, \nCalifornia." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Did the incident occur in your Futura Impreza?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Single or Multi Car",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Thank you for confirming." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "This is the first of 3 questions I'll need to ask about the incident." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Was this is single car or multi-car accident?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "single car"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "CI_single_car"
+      },
+      "currentPage": {
+        "name": "Passengers Involved",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Got it." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Were there any passengers in your car at the time?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.no"
+      },
+      "currentPage": {
+        "name": "Ticket Issued",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Finally, were you issued a ticket on the scene?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.no"
+      },
+      "currentPage": {
+        "name": "Upload Photo",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Can you please upload a photo of the damage?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "photo capture confirmation"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Photo_captured"
+      },
+      "currentPage": {
+        "name": "Anything Else",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Photo received!" ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "I appreciate your patience during this process. The claim has been filed and you will be contacted by a rep to follow up within 48 hours." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Is there anything else I can assist you with today?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no thanks"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.no"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Thank you again for contacting us. Have a great day!" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692995604,
+    "nanos": 433350000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

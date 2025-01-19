@@ -1,0 +1,7 @@
+{
+  "name": "5dc055bd-c516-4cdd-900c-f8e5a50b969d",
+  "displayName": "HI_file_claim",
+  "priority": 500000,
+  "description": "Users asking to file a claim or reporting an accident",
+  "numTrainingPhrases": 10
+}

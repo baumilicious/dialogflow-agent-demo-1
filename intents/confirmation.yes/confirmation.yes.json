@@ -1,6 +1,7 @@
 {
-  "name": "9a1eeb4a-749b-4f7c-a967-faa0e03bdda2",
+  "name": "b25fec5a-a83c-4c3e-90cc-96e0a5d9bc32",
   "displayName": "confirmation.yes",
   "priority": 500000,
-  "numTrainingPhrases": 1
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 11
 }

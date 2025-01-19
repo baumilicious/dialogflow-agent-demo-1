@@ -1,67 +1,54 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "that works"
+      "text": "just mine",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "definitely"
+      "text": "just me",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "let's do that"
+      "text": "only the one",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "alright"
+      "text": "just one",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "of course"
+      "text": "one",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " vehicle",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yes please"
+      "text": "one car",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "sure"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yep"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yeah"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yea"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yes"
+      "text": "single car",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"

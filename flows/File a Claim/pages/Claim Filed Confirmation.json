@@ -1,0 +1,23 @@
+{
+  "name": "0bb7f8cf-effb-4796-9da2-2d5953fd0683",
+  "displayName": "Claim Filed Confirmation",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I appreciate your patience during this process. The claim has been filed and you will be contacted by a rep to follow up within 48 hours." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Anything Else",
+    "name": "ad96002a-f866-4aa0-846d-9c96207f6c86"
+  } ]
+}

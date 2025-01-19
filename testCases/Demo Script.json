@@ -1,0 +1,355 @@
+{
+  "name": "8b3567b2-2c24-4b0c-b7b9-d8e641372de1",
+  "displayName": "Demo Script",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hi, I'm the Google call companion. I can help you through the process of filing an auto insurance claim, or check a current claim status. What would you like to do?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "I need to file a claim"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "HI_file_claim"
+      },
+      "currentPage": {
+        "name": "Confirm No Injury",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "No problem. I can guide you through the process of filing a claim." ]
+      }, {
+        "text": [ "Before we start, is everyone safe?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes, thankfully"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Confirm Account",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "I'm relieved to hear that everyone is alright." ]
+      }, {
+        "text": [ "Let's work on filing your claim." ]
+      }, {
+        "text": [ "Can you please enter the account number for your Insurance policy?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "243543"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirm Policy Details",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Thank you." ]
+      }, {
+        "text": [ "I was able to locate the account." ]
+      }, {
+        "text": [ "Policy Owner: [user_name]\nVehicle: [car_manufacturer] [car_model]\nYear: 2022\nCollision Limit: 50K\nPersonal Liability Limit: 100K" ]
+      }, {
+        "text": [ "Does this look correct?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Date of Incident",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "On what date did the incident occur?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "August 14 2023"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Location of Incident",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Got it, thank you." ]
+      }, {
+        "text": [ "What was the city and state where the incident occurred?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Chicago, Il"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirm Vehicle",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Thank you. I will record the location as:\n\nChicago, \nIllinois" ]
+      }, {
+        "text": [ "Did the incident occur in your [car_manufacturer] [car_model]?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Single or Multi Car",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Thank you for confirming." ]
+      }, {
+        "text": [ "This is the first of 3 questions I'll need to ask about the incident." ]
+      }, {
+        "text": [ "Was this is single car or multi-car accident?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "single car"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "CI_single_car"
+      },
+      "currentPage": {
+        "name": "Passengers Involved",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Got it." ]
+      }, {
+        "text": [ "Were there any passengers in your car at the time?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.no"
+      },
+      "currentPage": {
+        "name": "Ticket Issued",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Finally, were you issued a ticket on the scene?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.no"
+      },
+      "currentPage": {
+        "name": "Upload Photo",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Can you please upload a photo of the damage?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "photo capture confirmation"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Photo_captured"
+      },
+      "currentPage": {
+        "name": "Anything Else",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Photo received!" ]
+      }, {
+        "text": [ "I appreciate your patience during this process. The claim has been filed and you will be contacted by a rep to follow up within 48 hours." ]
+      }, {
+        "text": [ "Is there anything else I can assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "that's all, thanks!"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.no"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "File a Claim"
+      },
+      "textResponses": [ {
+        "text": [ "Thank you again for contacting us. Have a great day!" ]
+      } ],
+      "currentFlow": {
+        "name": "File a Claim"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692232387,
+    "nanos": 109738000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

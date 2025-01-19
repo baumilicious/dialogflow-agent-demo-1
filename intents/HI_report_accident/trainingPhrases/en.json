@@ -1,67 +1,57 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "that works"
+      "text": "i was in a small accident",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "definitely"
+      "text": "I ran into something",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "let's do that"
+      "text": "There was a collision",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "alright"
+      "text": "I just had a minor accident",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "of course"
+      "text": "My car met with an accident",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yes please"
+      "text": "I was hit",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "sure"
+      "text": "I got in an accident",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "yep"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yeah"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yea"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "yes"
+      "text": "I was involved in an accident",
+      "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"

@@ -1,0 +1,72 @@
+{
+  "name": "766cd87a-1c52-4d4f-a561-6f2728c7f075",
+  "displayName": "Confirm No Injury",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Before we continue, is everyone safe?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm relieved to hear that everyone is alright." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "File a Claim?",
+    "name": "eb2259c5-4b49-4d05-b90d-cac1edaf7389"
+  }, {
+    "intent": "confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm so sorry to hear that." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Call Emergency Crew",
+    "name": "0eb563ef-8e62-4a95-8722-865cdd64f151"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "File a Claim?",
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ {
+            "options": [ {
+              "text": "Yes"
+            }, {
+              "text": "No"
+            } ],
+            "type": "chips"
+          } ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cb9d78d6-332b-4636-bbb4-e4692225620a"
+  } ]
+}

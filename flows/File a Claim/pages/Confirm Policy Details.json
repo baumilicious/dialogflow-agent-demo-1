@@ -1,0 +1,45 @@
+{
+  "name": "e5bcb3a2-12a6-47b1-865b-a55b834c4f0c",
+  "displayName": "Confirm Policy Details",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I was able to locate the account." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "The policy owner is listed as Jane Smith.\nThe vehicle on record is a 2022 Futura Impreza.\nThere is a collision liability limit of $50,000\nand a personal liability limit of $100,000." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Does this sound correct?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Date of Incident",
+    "name": "3e90de41-16a6-42f1-9295-13f0ae419217"
+  } ]
+}

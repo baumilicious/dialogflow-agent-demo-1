@@ -1,0 +1,35 @@
+{
+  "name": "60f4f4ac-198e-4bb7-865c-581a2e2be1b9",
+  "displayName": "Ticket Issued",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Finally, were you issued a ticket on the scene?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Upload Photo",
+    "name": "ca11cae4-0ed5-4da4-87ae-f7cf959b69ac"
+  } ]
+}
