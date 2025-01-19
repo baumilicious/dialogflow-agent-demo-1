@@ -1,0 +1,11 @@
+{
+  "name": "e2ee03e0-9ab3-4143-8569-4841aad42bcc",
+  "displayName": "negative review",
+  "priority": 500000,
+  "labels": [ {
+    "key": "sys-head",
+    "value": "sys-head"
+  } ],
+  "description": "customer wants to give a negative review",
+  "numTrainingPhrases": 14
+}

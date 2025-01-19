@@ -1,0 +1,12 @@
+{
+  "displayName": "test-agent-1",
+  "defaultLanguageCode": "en",
+  "timeZone": "Europe/Berlin",
+  "projectNumber": 816869888633,
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  }
+}
