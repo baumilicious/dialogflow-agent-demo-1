@@ -12,15 +12,14 @@
         "languageCode": "en"
       } ]
     },
-    "name": "cd2cece1-2a52-4f4f-97c1-d303bcbcb2cd"
+    "name": "4171ccf9-a72d-4c7f-9fd3-a62939c76c0b"
   }, {
-    "intent": "book_an_appointment",
+    "intent": "main.book_a_flight",
     "triggerFulfillment": {
     
     },
-    "targetPage": "book_an_appointment",
-    "name": "2ba75530-71c7-43d5-9466-908ce4d4afc2",
-    "description": "make an appointment"
+    "targetPage": "Ticket information",
+    "name": "8943d1d7-a92c-4dbf-8c6c-0497c0cccc5c"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -32,7 +31,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "c31dce60-bcfb-4211-8690-5f7daee40763"
+    "name": "5844b643-1b2b-4e14-bcfd-c9fc84ffee16"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -43,7 +42,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "dd1cbaed-f0d7-400e-86fc-0e872d61f4e6"
+    "name": "46006387-29a1-4ae5-945b-e89942467675"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
@@ -52,7 +51,7 @@
   "nluSettingsList": [ {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001,
-    "customConfigKey": "6fdf676b-1fb0-40b7-8977-7725be86f9b1",
+    "customConfigKey": "ffe70241-4028-4bc7-93d1-def1555d70e8",
     "languageCode": "en"
   } ]
 }

@@ -1,6 +1,6 @@
 {
   "fallbackSettings": {
-  
+    "selectedPrompt": "Default"
   },
   "generativeSafetySettings": {
     "raiSettings": {
@@ -62,12 +62,11 @@
   },
   "languageCode": "en",
   "knowledgeConnectorSettings": {
-    "business": "Google Store",
     "mainLlmConfig": {
     
     }
   },
   "llmModelSettings": {
-  
+    "model": "gemini-1.5-flash"
   }
 }
