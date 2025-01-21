@@ -1,0 +1,18 @@
+{
+  "name": "7a4d46d6-7095-4ebb-820d-eff30de078e2",
+  "displayName": "test book",
+  "goal": "Bee friendly and helpfful\n- if the user says he wants to play pool, tell him there is no pool\n- if the user wants to play tennis, tell him it's 100 usd for tennis ",
+  "tokenCount": 96,
+  "instruction": {
+    "steps": [ {
+      "text": "Bee friendly and helpfful"
+    }, {
+      "text": "if the user says he wants to play pool, tell him there is no pool"
+    }, {
+      "text": "if the user wants to play tennis, tell him it's 100 usd for tennis"
+    } ]
+  },
+  "codeBlock": {
+  
+  }
+}
